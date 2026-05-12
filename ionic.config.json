@@ -1,0 +1,7 @@
+{
+  "name": "RecAppDeFilme",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
