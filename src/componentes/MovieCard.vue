@@ -38,7 +38,7 @@ const props = defineProps({
 const router = useRouter()
 
 function goToDetails() {
-  router.push(`/movie/${props.movie.id}`)
+  router.push({ name: 'MovieDetails', params: { id: String(props.movie.id) } })
 }
 
 function ratingClass(rating: string) {

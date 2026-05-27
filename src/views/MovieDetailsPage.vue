@@ -4,7 +4,7 @@
       <ion-toolbar>
 
         <ion-buttons slot="start">
-          <ion-back-button default-href="/movies"></ion-back-button>
+          <ion-back-button @click="goBack"></ion-back-button>
         </ion-buttons>
 
         <ion-title>
@@ -73,7 +73,7 @@ const movie = computed(() => {
 })
 
 function goBack() {
-  router.push('/movies')
+  router.push({ name: 'Movies' })
 }
 
 function ratingClass(rating: string) {

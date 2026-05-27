@@ -1,7 +1,6 @@
 
-import { createRouter, createWebHistory } from 'vue-router'
-import testPage from '@/views/testPage.vue'
-
+import { createRouter } from '@ionic/vue-router'
+import { createWebHistory } from 'vue-router'
 
 const routes = [
   {

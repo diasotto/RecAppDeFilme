@@ -49,7 +49,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 function enterApp() {
-  router.push('/movies')
+  router.push({ name: 'Movies' })
 }
 </script>
 
